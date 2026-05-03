@@ -1,0 +1,669 @@
+{
+  "version": 1,
+  "games": [
+    {
+      "name": "HTW"
+    }
+  ],
+  "monsters": [
+    {
+      "gameName": "HTW",
+      "name": "레오렉스 (레시티 연구실 2층)",
+      "tags": ["보스", "레시티 연구실"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [3],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "폴리멘 (레시ティ 연구실 3층)",
+      "tags": ["보스", "레시티 연구실"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [4],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "모르타나 (레시티 연구실 4층)",
+      "tags": ["보스", "레시티 연구실"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [5],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "무쿨라 (레시티 연구실 5층)",
+      "tags": ["보스", "레시티 연구실"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [6],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "칼자락 (레시티 연구실 6층)",
+      "tags": ["보스", "레시티 연구실"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [1],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "사리엘 (레시티 연구실 7층)",
+      "tags": ["보스", "레시티 연구실"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [2],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "광폭한 망령 군주 (공허의 안개 숲)",
+      "tags": ["보스", "몰락자의 은신처"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [2],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "광폭한 케르베로 (쇠락한 성곽의 잔해)",
+      "tags": ["보스", "몰락자의 은신처"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [0],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "광폭한 타우루스 (마른 모래 황무지)",
+      "tags": ["보스", "몰락자의 은신처"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "광폭한 크레이피시맨 (서리 숨결 고원)",
+      "tags": ["보스", "몰락자의 은신처"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "광폭한 베누카달 (대해의 마지막 안식처)",
+      "tags": ["보스", "몰락자의 은신처"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "광폭한 슬라임 퀸 (암흑 버섯 군락지)",
+      "tags": ["보스", "몰락자의 은신처"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "그레이트 골렘 (계시의 탑 3층)",
+      "tags": ["보스", "계시의 탑"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "켄타우릴 (계시의 탑 5층)",
+      "tags": ["보스", "계시의 탑"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "아르사딤 (여명의 전당 2층)",
+      "tags": ["보스", "여명의 전당"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "아즈라엘 (여명의 전당 4층)",
+      "tags": ["보스", "여명의 전당"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "스켈레톤 로드 (공동묘지 2층)",
+      "tags": ["보스", "공동묘지"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "리세멘트로 (공동묘지 3층)",
+      "tags": ["보스", "공동묘지"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "율리아 (공동묘지 4층)",
+      "tags": ["보스", "공동묘지"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (테라가드 1층)",
+      "tags": ["트레네코", "테라가드"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (테라가드 2층)",
+      "tags": ["트레네코", "테라가드"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (테라가드 p)",
+      "tags": ["트레네코", "테라가드"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (트리아 1층)",
+      "tags": ["트레네코", "트리아"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (트리아 2층)",
+      "tags": ["트레네코", "트리아"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (트리아 p)",
+      "tags": ["트레네코", "트리아"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (앙게로스 1층)",
+      "tags": ["트레네코", "앙게로스"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (앙게로스 2층)",
+      "tags": ["트레네코", "앙게로스"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (앙게로스 p)",
+      "tags": ["트레네코", "앙게로스"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (폰 1층)",
+      "tags": ["트레네코", "폰"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (폰 2층)",
+      "tags": ["트레네코", "폰"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (폰 p)",
+      "tags": ["트레네코", "폰"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (몬베라 1층)",
+      "tags": ["트레네코", "몬베라"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (몬베라 2층)",
+      "tags": ["트레네코", "몬베라"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (몬베라 p)",
+      "tags": ["트레네코", "몬베라"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (아바돈 1층)",
+      "tags": ["트레네코", "아바돈"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (아바돈 2층)",
+      "tags": ["트레네코", "아바돈"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "트레네코 (아바돈 p)",
+      "tags": ["트레네코", "아바돈"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "난투장",
+      "tags": ["이벤트"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [2, 6],
+        "time": "21:30",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "혈투의 전장",
+      "tags": ["이벤트"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [5],
+        "time": "21:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "성물 점령전",
+      "tags": ["이벤트"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [3, 6],
+        "time": "21:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "생존의 전장",
+      "tags": ["이벤트"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [1, 4],
+        "time": "21:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "심연의 포식자 (낮)",
+      "tags": ["이벤트"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [0, 1, 2, 3, 4, 5, 6],
+        "time": "12:30",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "심연의 포식자 (밤)",
+      "tags": ["이벤트"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [0, 1, 2, 3, 4, 5, 6],
+        "time": "20:30",
+        "holdSecondsAfterRespawn": 10
+      }
+    }
+  ]
+}
