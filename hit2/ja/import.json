@@ -1,0 +1,669 @@
+{
+  "version": 1,
+  "games": [
+    {
+      "name": "HTW"
+    }
+  ],
+  "monsters": [
+    {
+      "gameName": "HTW",
+      "name": "レオレクス（レシ2）",
+      "tags": ["ボス", "レシティ"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [3],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "ポリマン（レシ3）",
+      "tags": ["ボス", "レシティ"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [4],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "モルタナ（レシ4）",
+      "tags": ["ボス", "レシティ"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [5],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "ムクラ（レシ5）",
+      "tags": ["ボス", "レシティ"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [6],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "カルザラク（レシ6）",
+      "tags": ["ボス", "レシティ"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [1],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "サリエル（レシ7）",
+      "tags": ["ボス", "レシティ"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [2],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "狂暴な亡霊君主（虚無）",
+      "tags": ["ボス", "没落"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [2],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "狂暴なケルベロ（城郭）",
+      "tags": ["ボス", "没落"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [0],
+        "time": "22:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "狂暴なタウルス（砂）",
+      "tags": ["ボス", "没落"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "狂暴なクレイフィッシュマン（霜）",
+      "tags": ["ボス", "没落"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "狂暴なヴェヌカダール（大海）",
+      "tags": ["ボス", "没落"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "狂暴なスライムクイーン（キノコ）",
+      "tags": ["ボス", "没落"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "グレートゴーレム（啓示3）",
+      "tags": ["ボス", "啓示"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "ケンタウロス（啓示5）",
+      "tags": ["ボス", "啓示"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "アルサディム（黎明2）",
+      "tags": ["ボス", "黎明"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "アズラエル（黎明4）",
+      "tags": ["ボス", "黎明"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "スケルトンロード（墓2）",
+      "tags": ["ボス", "墓地"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "リセメンテリオ（墓3）",
+      "tags": ["ボス", "墓地"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "ユリア（墓4）",
+      "tags": ["ボス", "墓地"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [3]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 1200,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（テラガ1）",
+      "tags": ["トレネコ", "テラガ"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（テラガ2）",
+      "tags": ["トレネコ", "テラガ"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（テラガp）",
+      "tags": ["トレネコ", "テラガ"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（トゥリア1）",
+      "tags": ["トレネコ", "トゥリア"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（トゥリア2）",
+      "tags": ["トレネコ", "トゥリア"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（トゥリアp）",
+      "tags": ["トレネコ", "トゥリア"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（アンゲ1）",
+      "tags": ["トレネコ", "アンゲ"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（アンゲ2）",
+      "tags": ["トレネコ", "アンゲ"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（アンゲp）",
+      "tags": ["トレネコ", "アンゲ"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（フォン1）",
+      "tags": ["トレネコ", "フォン"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（フォン2）",
+      "tags": ["トレネコ", "フォン"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（フォンp）",
+      "tags": ["トレネコ", "フォン"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（モンベラ1）",
+      "tags": ["トレネコ", "モンベラ"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（モンベラ2）",
+      "tags": ["トレネコ", "モンベラ"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（モンベラp）",
+      "tags": ["トレネコ", "モンベラ"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（アバドン1）",
+      "tags": ["トレネコ", "アバドン"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（アバドン2）",
+      "tags": ["トレネコ", "アバドン"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "トレネコ（アバドンp）",
+      "tags": ["トレネコ", "アバドン"],
+      "respawnType": "afterKill",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [1]
+      },
+      "isActive": true,
+      "afterKillRule": {
+        "respawnMinutes": 60,
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "乱闘場",
+      "tags": ["イベント"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [2, 6],
+        "time": "21:30",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "血闘の戦場",
+      "tags": ["イベント"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [5],
+        "time": "21:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "聖物占領戦",
+      "tags": ["イベント"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [3, 6],
+        "time": "21:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "生存の戦場",
+      "tags": ["イベント"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [1, 4],
+        "time": "21:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "深淵の捕食者（昼）",
+      "tags": ["イベント"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [0, 1, 2, 3, 4, 5, 6],
+        "time": "12:30",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "深淵の捕食者（夜）",
+      "tags": ["イベント"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [0, 1, 2, 3, 4, 5, 6],
+        "time": "20:30",
+        "holdSecondsAfterRespawn": 10
+      }
+    }
+  ]
+}
