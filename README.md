@@ -2,6 +2,16 @@
 
 This repository provides import JSON files for Repop Tracker.
 
+## Download
+
+### iOS
+
+https://apps.apple.com/us/app/repop-tracker/id6763680328
+
+### Android
+
+https://play.google.com/store/apps/details?id=com.lizefield.repoptracker
+
 ## Documentation
 
 - [English](./docs/README.en.md)
