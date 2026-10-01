@@ -628,7 +628,23 @@
       },
       "isActive": true,
       "fixedRule": {
-        "weekdays": [1, 4],
+        "weekdays": [1],
+        "time": "21:00",
+        "holdSecondsAfterRespawn": 10
+      }
+    },
+    {
+      "gameName": "HTW",
+      "name": "禁断の亀裂",
+      "tags": ["イベント"],
+      "respawnType": "fixed",
+      "notification": {
+        "enabled": true,
+        "minutesBefore": [10]
+      },
+      "isActive": true,
+      "fixedRule": {
+        "weekdays": [4],
         "time": "21:00",
         "holdSecondsAfterRespawn": 10
       }
